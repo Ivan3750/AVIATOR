@@ -1,0 +1,19 @@
+.subtitle {
+  color: #ff7300;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qrcode {
+  background-color: #1d1952;
+  width: 200px;
+  height: 200px;
+  border-radius: 39px;
+  margin: 10px auto;
+}
+.logo {
+  margin: 20px auto;
+  width: 250px;
+}

@@ -1,0 +1,144 @@
+.time-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.time-box button {
+  padding: 7px 16px;
+  background-color: #1c1750;
+  font-size: 14px;
+  font-weight: 100;
+  color: #4048ff;
+  border-radius: 18px;
+  width: 90px;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+.place-block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  height: 56px;
+}
+.place-number {
+  font-size: 48px;
+  font-weight: 700;
+  width: 30px;
+}
+.place-box {
+  padding: 10px;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  background-color: #1c1750;
+  border-radius: 22px;
+  align-items: center;
+  justify-content: space-between;
+}
+.place-img {
+  border-radius: 21px;
+  width: 42px;
+  height: 42px;
+}
+.place-name {
+  font-size: 20px;
+  font-weight: 800;
+}
+.place-amount {
+  font-size: 20px;
+  font-weight: 700;
+}
+.place-coin {
+  width: 28px;
+  height: 28px;
+}
+
+.place-box-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.place-box-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#place-first {
+  font-size: 48px;
+  color: #ff7300;
+}
+
+#place-second {
+  font-size: 36px;
+  color: #ff7300;
+}
+
+#place-third {
+  font-size: 32px;
+  color: #ff7300;
+}
+
+#place-normal {
+  font-size: 30px;
+  color: #292ea7;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 302px;
+  width: 100%;
+  position: fixed;
+  background: rgb(20, 5, 59);
+  background: linear-gradient(
+    180deg,
+    rgba(20, 5, 59, 0) 0%,
+    rgba(27, 19, 75, 0.7456232492997199) 17%,
+    rgba(28, 22, 78, 0.9220938375350141) 28%,
+    rgba(29, 24, 80, 0.9781162464985994) 39%,
+    rgba(29, 24, 80, 0.9865196078431373) 51%,
+    rgba(29, 24, 80, 1) 63%
+  );
+}
+
+.result h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.result p {
+  margin: 0;
+  color: #84ffd3;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (max-width: 400px) {
+  .place-name{
+    font-size: 12px;
+  }
+  .place-amount{
+    font-size: 14px;
+  }
+  .time-box button {
+    padding: 7px 12px;
+    background-color: #1c1750;
+    font-size: 12px;
+    font-weight: 100;
+    color: #4048ff;
+    border-radius: 18px;
+    width: 90px;
+  }
+}

@@ -1,0 +1,111 @@
+main {
+  align-items: center;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.btn-copy {
+  background-color: #1d1850;
+  padding: 25px 60px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 36px;
+  filter: drop-shadow(0 98px 27px rgba(0, 0, 0, 0))
+    drop-shadow(0 63px 25px rgba(0, 0, 0, 0.01))
+    drop-shadow(0 35px 21px rgba(0, 0, 0, 0.05))
+    drop-shadow(0 16px 16px rgba(0, 0, 0, 0.09))
+    drop-shadow(0 4px 9px rgba(0, 0, 0, 0.1));
+}
+
+.amount-box {
+  background-color: #1d1850;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 36px;
+  filter: drop-shadow(0 98px 27px rgba(0, 0, 0, 0))
+    drop-shadow(0 63px 25px rgba(0, 0, 0, 0.01))
+    drop-shadow(0 35px 21px rgba(0, 0, 0, 0.05))
+    drop-shadow(0 16px 16px rgba(0, 0, 0, 0.09))
+    drop-shadow(0 4px 9px rgba(0, 0, 0, 0.1));
+}
+
+
+
+.reward-text {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.reward-amount {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.reward-text {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.reward-icon {
+  width: 55px;
+  height: 55px;
+}
+
+
+@media (max-width: 400px) {
+  
+.info {
+  font-size: 16px;
+}
+
+.btn-copy {
+  padding: 20px 40px;
+  font-size: 16px;
+  border-radius: 30px;
+
+}
+
+.amount-box {
+  padding: 14px 18px;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 36px;
+}
+
+
+
+.reward-text {
+  font-size: 20px;
+}
+.reward-amount {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.reward-text {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.reward-icon {
+  width: 40px;
+  height: 40px;
+}
+
+}

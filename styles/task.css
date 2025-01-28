@@ -1,0 +1,138 @@
+.task-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.task-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1752;
+  border-radius: 35px;
+  padding: 11px;
+  width: 310px;
+  height: 156px;
+  filter: drop-shadow(0 98px 27px rgba(0, 0, 0, 0))
+    drop-shadow(0 63px 25px rgba(0, 0, 0, 0.01))
+    drop-shadow(0 35px 21px rgba(0, 0, 0, 0.05))
+    drop-shadow(0 16px 16px rgba(0, 0, 0, 0.09))
+    drop-shadow(0 4px 9px rgba(0, 0, 0, 0.1));
+}
+.task-info {
+  display: flex;
+  gap: 15px;
+}
+
+.task-boximg {
+  background-color: #14053b;
+  width: 89px;
+  height: 89px;
+  border-radius: 26px;
+}
+
+.task-desc p {
+  width: 160px;
+  text-wrap: balance;
+}
+
+.task-control {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.task-btn {
+  width: 130px;
+  height: 32px;
+  border-radius: 16px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-done {
+  color: white;
+  background-color: #292ea7;
+}
+
+.btn-go {
+  color: white;
+  background-color: #fc7202;
+}
+
+.btn-collect {
+  color: #1c1752;
+  background-color: #60e63e;
+}
+
+.btn-wait {
+  background-color: #14053b;
+  color: #2a2fa5;
+}
+
+.task-reward img {
+  width: 18px;
+  height: 18px;
+}
+
+
+@media (max-width: 400px) {
+  .task-box {
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    gap: 5px;
+    justify-content: space-evenly;
+
+  }
+  .task-reward img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .task-btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 16px;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .task-boximg {
+    background-color: #14053b;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .task-desc p {
+    font-size: 12px;
+    width: 120px;
+    text-wrap: balance;
+  }
+
+  .task-desc h3{
+    font-size: 15px;
+  }
+  .btn-done {
+    color: white;
+    background-color: #292ea7;
+  }
+  
+  .btn-go {
+    color: white;
+    background-color: #fc7202;
+  }
+  
+  .btn-collect {
+    color: #1c1752;
+    background-color: #60e63e;
+  }
+  
+  .btn-wait {
+    background-color: #14053b;
+    color: #2a2fa5;
+  }
+}
