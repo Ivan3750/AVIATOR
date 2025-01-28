@@ -137,7 +137,7 @@ main {
 }
 
 .coin-shadow {
-  filter: drop-shadow(0 0 147px rgba(27, 179, 122, 1))
+  filter: 
     drop-shadow(0 0 84px rgba(27, 179, 122, 1))
     drop-shadow(0 0 24px rgba(27, 179, 122, 1))
     drop-shadow(0 0 3px rgba(27, 179, 122, 1));
