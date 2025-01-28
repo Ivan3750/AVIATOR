@@ -1,11 +1,13 @@
 main {
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: start;
 }
 
 .info {
   font-size: 20px;
   font-weight: 300;
+  margin: 20px 0;
+
 }
 
 .btn-copy {
@@ -37,6 +39,9 @@ main {
 }
 
 
+.reward-section{
+  margin: 50px 0;
+}
 
 .reward-text {
   font-weight: 700;
@@ -67,7 +72,8 @@ main {
 @media (max-width: 400px) {
   
 .info {
-  font-size: 16px;
+  font-size: 18px;
+  margin: 20px 0;
 }
 
 .btn-copy {

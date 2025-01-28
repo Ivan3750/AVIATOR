@@ -11,8 +11,11 @@ main {
 }
 .information-box {
   background-color: #1d1952;
-  padding: 25px;
   border-radius: 35px;
+  width: 305px;
+  height: 134px;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 .info-title {
   font-size: 24px;
@@ -25,10 +28,11 @@ main {
 .info-desc {
   font-size: 16px;
   font-weight: 400;
+  margin-top: 10px;
 }
 
 
-@media (max-width: 400px) {
+/* @media (max-width: 100px) {
   .information-box {
     background-color: #1d1952;
     padding: 18px;
@@ -43,4 +47,4 @@ main {
   .info-desc {
     font-size: 14px;
   }
-}
+} */
