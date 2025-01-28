@@ -4,10 +4,11 @@
   gap: 20px;
 }
 .time-box button {
-  padding: 7px 16px;
+  width: 89px;
+  height: 36px;
   background-color: #1C1750;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   color: #4048FF;
   border-radius: 18px;
   width: 90px;
