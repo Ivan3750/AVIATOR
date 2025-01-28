@@ -10,6 +10,9 @@ main {
 
 }
 
+.title{
+  margin-top: 35px;
+}
 .btn-copy {
   background-color: #1d1850;
   padding: 25px 60px;
